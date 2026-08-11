@@ -52,16 +52,19 @@ https://fault-line-seven.vercel.app
 ![Dashboard](screenshots/screen1.jpg)
 *Dashboard — live blast-radius diagram, critical packages, team exposure*
 
-![Vulnerability list](screenshots/screen2.jpg)
-*Every open CVE, sorted by severity and blast radius*
+![Packages and Ownership](screenshots/screen2.jpg)
+*Most-depended-upon packages*
 
-![Blast radius detail](screenshots/screen3.jpg)
-*Full blast radius for one CVE, with shortest dependency path on click*
+![Open vulnerabilities](screenshots/screen3.jpg)
+*Every disclosed CVE reachable in your dependency graph*
 
-![Service dependency tree](screenshots/screen4.jpg)
+![Service](screenshots/screen4.jpg)
 *A service's full dependency tree, vulnerable packages flagged*
 
-![Sign in](screenshots/screen5.jpg)
+![Recommendation Engine](screenshots/screen5.jpg)
+*recommendation-engine*
+
+![Sign in](screenshots/screen6.jpg)
 *Email/password and Google sign-in*
 
 ## Setup
