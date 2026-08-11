@@ -43,10 +43,6 @@ Answering "what's affected" requires walking a dependency chain of unknown depth
 - **Auth:** email/password + Google sign-in (NextAuth)
 - **Database:** CognoDB (graph database, openCypher over Bolt)
 
-## Live demo
-
-https://fault-line-seven.vercel.app
-
 ## Screenshots
 
 ![Dashboard](screenshots/screen1.jpg)
