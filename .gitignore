@@ -1,0 +1,20 @@
+# Secrets — never commit real CognoDB credentials
+.env
+backend/.env
+frontend/.env.local
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store

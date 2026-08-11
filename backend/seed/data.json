@@ -1,0 +1,1648 @@
+{
+  "teams": [
+    {
+      "id": "team_0",
+      "name": "Platform"
+    },
+    {
+      "id": "team_1",
+      "name": "Payments"
+    },
+    {
+      "id": "team_2",
+      "name": "Identity"
+    },
+    {
+      "id": "team_3",
+      "name": "Growth"
+    },
+    {
+      "id": "team_4",
+      "name": "Search"
+    },
+    {
+      "id": "team_5",
+      "name": "Data Platform"
+    },
+    {
+      "id": "team_6",
+      "name": "Notifications"
+    },
+    {
+      "id": "team_7",
+      "name": "Checkout"
+    },
+    {
+      "id": "team_8",
+      "name": "Mobile"
+    },
+    {
+      "id": "team_9",
+      "name": "Security"
+    }
+  ],
+  "packages": [
+    {
+      "id": "pkg_0",
+      "name": "lodash",
+      "ecosystem": "npm",
+      "version": "4.17.21"
+    },
+    {
+      "id": "pkg_1",
+      "name": "axios",
+      "ecosystem": "npm",
+      "version": "1.6.8"
+    },
+    {
+      "id": "pkg_2",
+      "name": "express",
+      "ecosystem": "npm",
+      "version": "4.19.2"
+    },
+    {
+      "id": "pkg_3",
+      "name": "react",
+      "ecosystem": "npm",
+      "version": "18.2.0"
+    },
+    {
+      "id": "pkg_4",
+      "name": "next",
+      "ecosystem": "npm",
+      "version": "14.2.3"
+    },
+    {
+      "id": "pkg_5",
+      "name": "tailwindcss",
+      "ecosystem": "npm",
+      "version": "3.4.3"
+    },
+    {
+      "id": "pkg_6",
+      "name": "jsonwebtoken",
+      "ecosystem": "npm",
+      "version": "9.0.2"
+    },
+    {
+      "id": "pkg_7",
+      "name": "bcrypt",
+      "ecosystem": "npm",
+      "version": "5.1.1"
+    },
+    {
+      "id": "pkg_8",
+      "name": "uuid",
+      "ecosystem": "npm",
+      "version": "9.0.1"
+    },
+    {
+      "id": "pkg_9",
+      "name": "dotenv",
+      "ecosystem": "npm",
+      "version": "16.4.5"
+    },
+    {
+      "id": "pkg_10",
+      "name": "requests",
+      "ecosystem": "pypi",
+      "version": "2.31.0"
+    },
+    {
+      "id": "pkg_11",
+      "name": "flask",
+      "ecosystem": "pypi",
+      "version": "3.0.3"
+    },
+    {
+      "id": "pkg_12",
+      "name": "numpy",
+      "ecosystem": "pypi",
+      "version": "1.26.4"
+    },
+    {
+      "id": "pkg_13",
+      "name": "pandas",
+      "ecosystem": "pypi",
+      "version": "2.2.2"
+    },
+    {
+      "id": "pkg_14",
+      "name": "cryptography",
+      "ecosystem": "pypi",
+      "version": "42.0.5"
+    },
+    {
+      "id": "pkg_15",
+      "name": "pyyaml",
+      "ecosystem": "pypi",
+      "version": "6.0.1"
+    },
+    {
+      "id": "pkg_16",
+      "name": "celery",
+      "ecosystem": "pypi",
+      "version": "5.4.0"
+    },
+    {
+      "id": "pkg_17",
+      "name": "sqlalchemy",
+      "ecosystem": "pypi",
+      "version": "2.0.30"
+    },
+    {
+      "id": "pkg_18",
+      "name": "jinja2",
+      "ecosystem": "pypi",
+      "version": "3.1.4"
+    },
+    {
+      "id": "pkg_19",
+      "name": "gunicorn",
+      "ecosystem": "pypi",
+      "version": "22.0.0"
+    },
+    {
+      "id": "pkg_20",
+      "name": "log4j-core",
+      "ecosystem": "maven",
+      "version": "2.17.1"
+    },
+    {
+      "id": "pkg_21",
+      "name": "jackson-databind",
+      "ecosystem": "maven",
+      "version": "2.17.0"
+    },
+    {
+      "id": "pkg_22",
+      "name": "spring-web",
+      "ecosystem": "maven",
+      "version": "6.1.6"
+    },
+    {
+      "id": "pkg_23",
+      "name": "guava",
+      "ecosystem": "maven",
+      "version": "33.1.0"
+    },
+    {
+      "id": "pkg_24",
+      "name": "okhttp",
+      "ecosystem": "maven",
+      "version": "4.12.0"
+    },
+    {
+      "id": "pkg_25",
+      "name": "passport",
+      "ecosystem": "npm",
+      "version": "6.3.0"
+    },
+    {
+      "id": "pkg_26",
+      "name": "multer",
+      "ecosystem": "npm",
+      "version": "2.3.8"
+    },
+    {
+      "id": "pkg_27",
+      "name": "nodemailer",
+      "ecosystem": "npm",
+      "version": "4.1.0"
+    },
+    {
+      "id": "pkg_28",
+      "name": "stripe",
+      "ecosystem": "npm",
+      "version": "2.16.9"
+    },
+    {
+      "id": "pkg_29",
+      "name": "redis",
+      "ecosystem": "npm",
+      "version": "2.20.8"
+    },
+    {
+      "id": "pkg_30",
+      "name": "prom-client",
+      "ecosystem": "npm",
+      "version": "5.8.0"
+    },
+    {
+      "id": "pkg_31",
+      "name": "winston",
+      "ecosystem": "npm",
+      "version": "3.8.2"
+    },
+    {
+      "id": "pkg_32",
+      "name": "joi",
+      "ecosystem": "npm",
+      "version": "1.2.6"
+    },
+    {
+      "id": "pkg_33",
+      "name": "ioredis",
+      "ecosystem": "npm",
+      "version": "3.19.4"
+    },
+    {
+      "id": "pkg_34",
+      "name": "bull",
+      "ecosystem": "npm",
+      "version": "5.3.6"
+    },
+    {
+      "id": "pkg_35",
+      "name": "djangorestframework",
+      "ecosystem": "pypi",
+      "version": "3.20.9"
+    },
+    {
+      "id": "pkg_36",
+      "name": "boto3",
+      "ecosystem": "pypi",
+      "version": "6.2.0"
+    },
+    {
+      "id": "pkg_37",
+      "name": "pydantic",
+      "ecosystem": "pypi",
+      "version": "2.3.6"
+    },
+    {
+      "id": "pkg_38",
+      "name": "httpx",
+      "ecosystem": "pypi",
+      "version": "2.11.5"
+    },
+    {
+      "id": "pkg_39",
+      "name": "pillow",
+      "ecosystem": "pypi",
+      "version": "6.20.1"
+    },
+    {
+      "id": "pkg_40",
+      "name": "alembic",
+      "ecosystem": "pypi",
+      "version": "2.14.6"
+    },
+    {
+      "id": "pkg_41",
+      "name": "elasticsearch-py",
+      "ecosystem": "pypi",
+      "version": "6.10.0"
+    },
+    {
+      "id": "pkg_42",
+      "name": "kafka-python",
+      "ecosystem": "pypi",
+      "version": "3.12.4"
+    },
+    {
+      "id": "pkg_43",
+      "name": "spring-boot-starter-web",
+      "ecosystem": "maven",
+      "version": "5.10.3"
+    },
+    {
+      "id": "pkg_44",
+      "name": "hibernate-core",
+      "ecosystem": "maven",
+      "version": "4.4.4"
+    },
+    {
+      "id": "pkg_45",
+      "name": "logback-classic",
+      "ecosystem": "maven",
+      "version": "6.17.8"
+    },
+    {
+      "id": "pkg_46",
+      "name": "junit",
+      "ecosystem": "maven",
+      "version": "5.12.5"
+    },
+    {
+      "id": "pkg_47",
+      "name": "internal-auth-sdk",
+      "ecosystem": "npm",
+      "version": "3.7.0"
+    },
+    {
+      "id": "pkg_48",
+      "name": "internal-http-client",
+      "ecosystem": "npm",
+      "version": "1.2.0"
+    },
+    {
+      "id": "pkg_49",
+      "name": "internal-logging-sdk",
+      "ecosystem": "npm",
+      "version": "2.8.0"
+    },
+    {
+      "id": "pkg_50",
+      "name": "internal-payments-sdk",
+      "ecosystem": "npm",
+      "version": "1.8.0"
+    },
+    {
+      "id": "pkg_51",
+      "name": "internal-notifications-sdk",
+      "ecosystem": "npm",
+      "version": "2.0.0"
+    },
+    {
+      "id": "pkg_52",
+      "name": "internal-ml-toolkit",
+      "ecosystem": "pypi",
+      "version": "1.4.0"
+    },
+    {
+      "id": "pkg_53",
+      "name": "internal-data-client",
+      "ecosystem": "pypi",
+      "version": "3.8.0"
+    },
+    {
+      "id": "pkg_54",
+      "name": "internal-search-client",
+      "ecosystem": "pypi",
+      "version": "2.4.0"
+    },
+    {
+      "id": "pkg_55",
+      "name": "internal-audit-lib",
+      "ecosystem": "maven",
+      "version": "1.1.0"
+    }
+  ],
+  "services": [
+    {
+      "id": "svc_0",
+      "name": "api-gateway",
+      "tier": "critical",
+      "team": "Platform"
+    },
+    {
+      "id": "svc_1",
+      "name": "auth-service",
+      "tier": "critical",
+      "team": "Identity"
+    },
+    {
+      "id": "svc_2",
+      "name": "session-service",
+      "tier": "critical",
+      "team": "Identity"
+    },
+    {
+      "id": "svc_3",
+      "name": "user-profile-service",
+      "tier": "standard",
+      "team": "Identity"
+    },
+    {
+      "id": "svc_4",
+      "name": "payment-processor",
+      "tier": "critical",
+      "team": "Payments"
+    },
+    {
+      "id": "svc_5",
+      "name": "invoice-service",
+      "tier": "standard",
+      "team": "Payments"
+    },
+    {
+      "id": "svc_6",
+      "name": "ledger-service",
+      "tier": "critical",
+      "team": "Payments"
+    },
+    {
+      "id": "svc_7",
+      "name": "cart-service",
+      "tier": "critical",
+      "team": "Checkout"
+    },
+    {
+      "id": "svc_8",
+      "name": "checkout-api",
+      "tier": "critical",
+      "team": "Checkout"
+    },
+    {
+      "id": "svc_9",
+      "name": "pricing-engine",
+      "tier": "standard",
+      "team": "Checkout"
+    },
+    {
+      "id": "svc_10",
+      "name": "recommendation-engine",
+      "tier": "standard",
+      "team": "Growth"
+    },
+    {
+      "id": "svc_11",
+      "name": "email-campaign-service",
+      "tier": "standard",
+      "team": "Growth"
+    },
+    {
+      "id": "svc_12",
+      "name": "ab-testing-service",
+      "tier": "internal",
+      "team": "Growth"
+    },
+    {
+      "id": "svc_13",
+      "name": "search-api",
+      "tier": "critical",
+      "team": "Search"
+    },
+    {
+      "id": "svc_14",
+      "name": "indexing-worker",
+      "tier": "standard",
+      "team": "Search"
+    },
+    {
+      "id": "svc_15",
+      "name": "autocomplete-service",
+      "tier": "standard",
+      "team": "Search"
+    },
+    {
+      "id": "svc_16",
+      "name": "analytics-pipeline",
+      "tier": "standard",
+      "team": "Data Platform"
+    },
+    {
+      "id": "svc_17",
+      "name": "etl-worker",
+      "tier": "internal",
+      "team": "Data Platform"
+    },
+    {
+      "id": "svc_18",
+      "name": "reporting-service",
+      "tier": "internal",
+      "team": "Data Platform"
+    },
+    {
+      "id": "svc_19",
+      "name": "data-warehouse-sync",
+      "tier": "standard",
+      "team": "Data Platform"
+    },
+    {
+      "id": "svc_20",
+      "name": "push-notification-service",
+      "tier": "standard",
+      "team": "Notifications"
+    },
+    {
+      "id": "svc_21",
+      "name": "email-sender",
+      "tier": "standard",
+      "team": "Notifications"
+    },
+    {
+      "id": "svc_22",
+      "name": "sms-gateway",
+      "tier": "standard",
+      "team": "Notifications"
+    },
+    {
+      "id": "svc_23",
+      "name": "mobile-bff",
+      "tier": "critical",
+      "team": "Mobile"
+    },
+    {
+      "id": "svc_24",
+      "name": "mobile-auth-bridge",
+      "tier": "standard",
+      "team": "Mobile"
+    },
+    {
+      "id": "svc_25",
+      "name": "feature-flag-service",
+      "tier": "internal",
+      "team": "Platform"
+    },
+    {
+      "id": "svc_26",
+      "name": "config-service",
+      "tier": "internal",
+      "team": "Platform"
+    },
+    {
+      "id": "svc_27",
+      "name": "logging-pipeline",
+      "tier": "standard",
+      "team": "Platform"
+    },
+    {
+      "id": "svc_28",
+      "name": "audit-log-service",
+      "tier": "critical",
+      "team": "Security"
+    },
+    {
+      "id": "svc_29",
+      "name": "secrets-vault-proxy",
+      "tier": "critical",
+      "team": "Security"
+    },
+    {
+      "id": "svc_30",
+      "name": "fraud-detection-service",
+      "tier": "critical",
+      "team": "Security"
+    },
+    {
+      "id": "svc_31",
+      "name": "rate-limiter",
+      "tier": "standard",
+      "team": "Platform"
+    },
+    {
+      "id": "svc_32",
+      "name": "image-resizer",
+      "tier": "internal",
+      "team": "Growth"
+    },
+    {
+      "id": "svc_33",
+      "name": "webhook-dispatcher",
+      "tier": "standard",
+      "team": "Platform"
+    },
+    {
+      "id": "svc_34",
+      "name": "order-fulfillment-service",
+      "tier": "critical",
+      "team": "Checkout"
+    }
+  ],
+  "depends_on": [
+    {
+      "from": "passport",
+      "to": "next"
+    },
+    {
+      "from": "passport",
+      "to": "react"
+    },
+    {
+      "from": "passport",
+      "to": "uuid"
+    },
+    {
+      "from": "multer",
+      "to": "dotenv"
+    },
+    {
+      "from": "nodemailer",
+      "to": "react"
+    },
+    {
+      "from": "stripe",
+      "to": "uuid"
+    },
+    {
+      "from": "redis",
+      "to": "react"
+    },
+    {
+      "from": "redis",
+      "to": "bcrypt"
+    },
+    {
+      "from": "prom-client",
+      "to": "jsonwebtoken"
+    },
+    {
+      "from": "winston",
+      "to": "tailwindcss"
+    },
+    {
+      "from": "joi",
+      "to": "tailwindcss"
+    },
+    {
+      "from": "ioredis",
+      "to": "bcrypt"
+    },
+    {
+      "from": "bull",
+      "to": "uuid"
+    },
+    {
+      "from": "djangorestframework",
+      "to": "gunicorn"
+    },
+    {
+      "from": "djangorestframework",
+      "to": "pandas"
+    },
+    {
+      "from": "boto3",
+      "to": "pandas"
+    },
+    {
+      "from": "boto3",
+      "to": "cryptography"
+    },
+    {
+      "from": "boto3",
+      "to": "flask"
+    },
+    {
+      "from": "pydantic",
+      "to": "sqlalchemy"
+    },
+    {
+      "from": "pydantic",
+      "to": "pyyaml"
+    },
+    {
+      "from": "httpx",
+      "to": "cryptography"
+    },
+    {
+      "from": "pillow",
+      "to": "numpy"
+    },
+    {
+      "from": "pillow",
+      "to": "jinja2"
+    },
+    {
+      "from": "pillow",
+      "to": "pandas"
+    },
+    {
+      "from": "alembic",
+      "to": "jinja2"
+    },
+    {
+      "from": "alembic",
+      "to": "pandas"
+    },
+    {
+      "from": "elasticsearch-py",
+      "to": "requests"
+    },
+    {
+      "from": "kafka-python",
+      "to": "pandas"
+    },
+    {
+      "from": "spring-boot-starter-web",
+      "to": "guava"
+    },
+    {
+      "from": "spring-boot-starter-web",
+      "to": "okhttp"
+    },
+    {
+      "from": "spring-boot-starter-web",
+      "to": "spring-web"
+    },
+    {
+      "from": "hibernate-core",
+      "to": "jackson-databind"
+    },
+    {
+      "from": "logback-classic",
+      "to": "okhttp"
+    },
+    {
+      "from": "logback-classic",
+      "to": "guava"
+    },
+    {
+      "from": "junit",
+      "to": "jackson-databind"
+    },
+    {
+      "from": "internal-auth-sdk",
+      "to": "passport"
+    },
+    {
+      "from": "internal-http-client",
+      "to": "bull"
+    },
+    {
+      "from": "internal-http-client",
+      "to": "multer"
+    },
+    {
+      "from": "internal-http-client",
+      "to": "dotenv"
+    },
+    {
+      "from": "internal-logging-sdk",
+      "to": "ioredis"
+    },
+    {
+      "from": "internal-logging-sdk",
+      "to": "passport"
+    },
+    {
+      "from": "internal-payments-sdk",
+      "to": "prom-client"
+    },
+    {
+      "from": "internal-payments-sdk",
+      "to": "multer"
+    },
+    {
+      "from": "internal-payments-sdk",
+      "to": "express"
+    },
+    {
+      "from": "internal-notifications-sdk",
+      "to": "ioredis"
+    },
+    {
+      "from": "internal-notifications-sdk",
+      "to": "nodemailer"
+    },
+    {
+      "from": "internal-ml-toolkit",
+      "to": "pydantic"
+    },
+    {
+      "from": "internal-ml-toolkit",
+      "to": "numpy"
+    },
+    {
+      "from": "internal-data-client",
+      "to": "alembic"
+    },
+    {
+      "from": "internal-data-client",
+      "to": "flask"
+    },
+    {
+      "from": "internal-search-client",
+      "to": "djangorestframework"
+    },
+    {
+      "from": "internal-search-client",
+      "to": "gunicorn"
+    },
+    {
+      "from": "internal-audit-lib",
+      "to": "spring-boot-starter-web"
+    },
+    {
+      "from": "internal-audit-lib",
+      "to": "logback-classic"
+    }
+  ],
+  "uses": [
+    {
+      "service": "api-gateway",
+      "package": "junit"
+    },
+    {
+      "service": "api-gateway",
+      "package": "alembic"
+    },
+    {
+      "service": "api-gateway",
+      "package": "internal-audit-lib"
+    },
+    {
+      "service": "api-gateway",
+      "package": "kafka-python"
+    },
+    {
+      "service": "api-gateway",
+      "package": "requests"
+    },
+    {
+      "service": "auth-service",
+      "package": "elasticsearch-py"
+    },
+    {
+      "service": "auth-service",
+      "package": "internal-ml-toolkit"
+    },
+    {
+      "service": "auth-service",
+      "package": "hibernate-core"
+    },
+    {
+      "service": "auth-service",
+      "package": "httpx"
+    },
+    {
+      "service": "auth-service",
+      "package": "internal-audit-lib"
+    },
+    {
+      "service": "auth-service",
+      "package": "requests"
+    },
+    {
+      "service": "session-service",
+      "package": "internal-logging-sdk"
+    },
+    {
+      "service": "session-service",
+      "package": "internal-http-client"
+    },
+    {
+      "service": "session-service",
+      "package": "internal-auth-sdk"
+    },
+    {
+      "service": "session-service",
+      "package": "winston"
+    },
+    {
+      "service": "session-service",
+      "package": "internal-data-client"
+    },
+    {
+      "service": "session-service",
+      "package": "bull"
+    },
+    {
+      "service": "session-service",
+      "package": "pydantic"
+    },
+    {
+      "service": "session-service",
+      "package": "lodash"
+    },
+    {
+      "service": "user-profile-service",
+      "package": "internal-data-client"
+    },
+    {
+      "service": "user-profile-service",
+      "package": "elasticsearch-py"
+    },
+    {
+      "service": "user-profile-service",
+      "package": "pillow"
+    },
+    {
+      "service": "user-profile-service",
+      "package": "stripe"
+    },
+    {
+      "service": "user-profile-service",
+      "package": "joi"
+    },
+    {
+      "service": "user-profile-service",
+      "package": "internal-notifications-sdk"
+    },
+    {
+      "service": "user-profile-service",
+      "package": "axios"
+    },
+    {
+      "service": "payment-processor",
+      "package": "passport"
+    },
+    {
+      "service": "payment-processor",
+      "package": "spring-boot-starter-web"
+    },
+    {
+      "service": "payment-processor",
+      "package": "kafka-python"
+    },
+    {
+      "service": "payment-processor",
+      "package": "joi"
+    },
+    {
+      "service": "payment-processor",
+      "package": "nodemailer"
+    },
+    {
+      "service": "payment-processor",
+      "package": "axios"
+    },
+    {
+      "service": "invoice-service",
+      "package": "nodemailer"
+    },
+    {
+      "service": "invoice-service",
+      "package": "internal-data-client"
+    },
+    {
+      "service": "invoice-service",
+      "package": "multer"
+    },
+    {
+      "service": "invoice-service",
+      "package": "internal-ml-toolkit"
+    },
+    {
+      "service": "invoice-service",
+      "package": "lodash"
+    },
+    {
+      "service": "ledger-service",
+      "package": "elasticsearch-py"
+    },
+    {
+      "service": "ledger-service",
+      "package": "joi"
+    },
+    {
+      "service": "ledger-service",
+      "package": "ioredis"
+    },
+    {
+      "service": "ledger-service",
+      "package": "uuid"
+    },
+    {
+      "service": "cart-service",
+      "package": "kafka-python"
+    },
+    {
+      "service": "cart-service",
+      "package": "redis"
+    },
+    {
+      "service": "cart-service",
+      "package": "internal-http-client"
+    },
+    {
+      "service": "cart-service",
+      "package": "internal-search-client"
+    },
+    {
+      "service": "cart-service",
+      "package": "uuid"
+    },
+    {
+      "service": "checkout-api",
+      "package": "internal-payments-sdk"
+    },
+    {
+      "service": "checkout-api",
+      "package": "alembic"
+    },
+    {
+      "service": "checkout-api",
+      "package": "httpx"
+    },
+    {
+      "service": "checkout-api",
+      "package": "winston"
+    },
+    {
+      "service": "checkout-api",
+      "package": "axios"
+    },
+    {
+      "service": "pricing-engine",
+      "package": "junit"
+    },
+    {
+      "service": "pricing-engine",
+      "package": "httpx"
+    },
+    {
+      "service": "pricing-engine",
+      "package": "boto3"
+    },
+    {
+      "service": "pricing-engine",
+      "package": "uuid"
+    },
+    {
+      "service": "recommendation-engine",
+      "package": "pillow"
+    },
+    {
+      "service": "recommendation-engine",
+      "package": "internal-ml-toolkit"
+    },
+    {
+      "service": "recommendation-engine",
+      "package": "internal-http-client"
+    },
+    {
+      "service": "recommendation-engine",
+      "package": "multer"
+    },
+    {
+      "service": "recommendation-engine",
+      "package": "junit"
+    },
+    {
+      "service": "recommendation-engine",
+      "package": "logback-classic"
+    },
+    {
+      "service": "recommendation-engine",
+      "package": "axios"
+    },
+    {
+      "service": "email-campaign-service",
+      "package": "pydantic"
+    },
+    {
+      "service": "email-campaign-service",
+      "package": "internal-http-client"
+    },
+    {
+      "service": "email-campaign-service",
+      "package": "djangorestframework"
+    },
+    {
+      "service": "email-campaign-service",
+      "package": "axios"
+    },
+    {
+      "service": "ab-testing-service",
+      "package": "winston"
+    },
+    {
+      "service": "ab-testing-service",
+      "package": "kafka-python"
+    },
+    {
+      "service": "ab-testing-service",
+      "package": "pillow"
+    },
+    {
+      "service": "ab-testing-service",
+      "package": "redis"
+    },
+    {
+      "service": "ab-testing-service",
+      "package": "uuid"
+    },
+    {
+      "service": "search-api",
+      "package": "ioredis"
+    },
+    {
+      "service": "search-api",
+      "package": "pillow"
+    },
+    {
+      "service": "search-api",
+      "package": "joi"
+    },
+    {
+      "service": "search-api",
+      "package": "internal-ml-toolkit"
+    },
+    {
+      "service": "search-api",
+      "package": "axios"
+    },
+    {
+      "service": "indexing-worker",
+      "package": "internal-payments-sdk"
+    },
+    {
+      "service": "indexing-worker",
+      "package": "internal-ml-toolkit"
+    },
+    {
+      "service": "indexing-worker",
+      "package": "internal-search-client"
+    },
+    {
+      "service": "indexing-worker",
+      "package": "kafka-python"
+    },
+    {
+      "service": "indexing-worker",
+      "package": "stripe"
+    },
+    {
+      "service": "indexing-worker",
+      "package": "multer"
+    },
+    {
+      "service": "indexing-worker",
+      "package": "axios"
+    },
+    {
+      "service": "autocomplete-service",
+      "package": "internal-search-client"
+    },
+    {
+      "service": "autocomplete-service",
+      "package": "internal-logging-sdk"
+    },
+    {
+      "service": "autocomplete-service",
+      "package": "internal-ml-toolkit"
+    },
+    {
+      "service": "autocomplete-service",
+      "package": "requests"
+    },
+    {
+      "service": "analytics-pipeline",
+      "package": "httpx"
+    },
+    {
+      "service": "analytics-pipeline",
+      "package": "alembic"
+    },
+    {
+      "service": "analytics-pipeline",
+      "package": "winston"
+    },
+    {
+      "service": "analytics-pipeline",
+      "package": "internal-ml-toolkit"
+    },
+    {
+      "service": "analytics-pipeline",
+      "package": "uuid"
+    },
+    {
+      "service": "etl-worker",
+      "package": "prom-client"
+    },
+    {
+      "service": "etl-worker",
+      "package": "pydantic"
+    },
+    {
+      "service": "etl-worker",
+      "package": "passport"
+    },
+    {
+      "service": "etl-worker",
+      "package": "uuid"
+    },
+    {
+      "service": "reporting-service",
+      "package": "internal-search-client"
+    },
+    {
+      "service": "reporting-service",
+      "package": "internal-payments-sdk"
+    },
+    {
+      "service": "reporting-service",
+      "package": "pillow"
+    },
+    {
+      "service": "reporting-service",
+      "package": "bull"
+    },
+    {
+      "service": "reporting-service",
+      "package": "httpx"
+    },
+    {
+      "service": "reporting-service",
+      "package": "uuid"
+    },
+    {
+      "service": "data-warehouse-sync",
+      "package": "winston"
+    },
+    {
+      "service": "data-warehouse-sync",
+      "package": "bull"
+    },
+    {
+      "service": "data-warehouse-sync",
+      "package": "internal-audit-lib"
+    },
+    {
+      "service": "data-warehouse-sync",
+      "package": "multer"
+    },
+    {
+      "service": "data-warehouse-sync",
+      "package": "axios"
+    },
+    {
+      "service": "push-notification-service",
+      "package": "multer"
+    },
+    {
+      "service": "push-notification-service",
+      "package": "spring-boot-starter-web"
+    },
+    {
+      "service": "push-notification-service",
+      "package": "alembic"
+    },
+    {
+      "service": "push-notification-service",
+      "package": "elasticsearch-py"
+    },
+    {
+      "service": "push-notification-service",
+      "package": "internal-search-client"
+    },
+    {
+      "service": "push-notification-service",
+      "package": "requests"
+    },
+    {
+      "service": "email-sender",
+      "package": "internal-audit-lib"
+    },
+    {
+      "service": "email-sender",
+      "package": "elasticsearch-py"
+    },
+    {
+      "service": "email-sender",
+      "package": "nodemailer"
+    },
+    {
+      "service": "email-sender",
+      "package": "requests"
+    },
+    {
+      "service": "sms-gateway",
+      "package": "hibernate-core"
+    },
+    {
+      "service": "sms-gateway",
+      "package": "nodemailer"
+    },
+    {
+      "service": "sms-gateway",
+      "package": "junit"
+    },
+    {
+      "service": "sms-gateway",
+      "package": "requests"
+    },
+    {
+      "service": "mobile-bff",
+      "package": "stripe"
+    },
+    {
+      "service": "mobile-bff",
+      "package": "internal-data-client"
+    },
+    {
+      "service": "mobile-bff",
+      "package": "spring-boot-starter-web"
+    },
+    {
+      "service": "mobile-bff",
+      "package": "joi"
+    },
+    {
+      "service": "mobile-bff",
+      "package": "internal-search-client"
+    },
+    {
+      "service": "mobile-bff",
+      "package": "hibernate-core"
+    },
+    {
+      "service": "mobile-bff",
+      "package": "axios"
+    },
+    {
+      "service": "mobile-auth-bridge",
+      "package": "nodemailer"
+    },
+    {
+      "service": "mobile-auth-bridge",
+      "package": "httpx"
+    },
+    {
+      "service": "mobile-auth-bridge",
+      "package": "junit"
+    },
+    {
+      "service": "mobile-auth-bridge",
+      "package": "spring-boot-starter-web"
+    },
+    {
+      "service": "mobile-auth-bridge",
+      "package": "internal-ml-toolkit"
+    },
+    {
+      "service": "mobile-auth-bridge",
+      "package": "elasticsearch-py"
+    },
+    {
+      "service": "mobile-auth-bridge",
+      "package": "djangorestframework"
+    },
+    {
+      "service": "mobile-auth-bridge",
+      "package": "lodash"
+    },
+    {
+      "service": "feature-flag-service",
+      "package": "junit"
+    },
+    {
+      "service": "feature-flag-service",
+      "package": "internal-auth-sdk"
+    },
+    {
+      "service": "feature-flag-service",
+      "package": "djangorestframework"
+    },
+    {
+      "service": "feature-flag-service",
+      "package": "joi"
+    },
+    {
+      "service": "feature-flag-service",
+      "package": "lodash"
+    },
+    {
+      "service": "config-service",
+      "package": "redis"
+    },
+    {
+      "service": "config-service",
+      "package": "junit"
+    },
+    {
+      "service": "config-service",
+      "package": "logback-classic"
+    },
+    {
+      "service": "config-service",
+      "package": "bull"
+    },
+    {
+      "service": "config-service",
+      "package": "pillow"
+    },
+    {
+      "service": "config-service",
+      "package": "djangorestframework"
+    },
+    {
+      "service": "config-service",
+      "package": "axios"
+    },
+    {
+      "service": "logging-pipeline",
+      "package": "pillow"
+    },
+    {
+      "service": "logging-pipeline",
+      "package": "hibernate-core"
+    },
+    {
+      "service": "logging-pipeline",
+      "package": "spring-boot-starter-web"
+    },
+    {
+      "service": "logging-pipeline",
+      "package": "axios"
+    },
+    {
+      "service": "audit-log-service",
+      "package": "kafka-python"
+    },
+    {
+      "service": "audit-log-service",
+      "package": "winston"
+    },
+    {
+      "service": "audit-log-service",
+      "package": "elasticsearch-py"
+    },
+    {
+      "service": "audit-log-service",
+      "package": "lodash"
+    },
+    {
+      "service": "secrets-vault-proxy",
+      "package": "internal-search-client"
+    },
+    {
+      "service": "secrets-vault-proxy",
+      "package": "boto3"
+    },
+    {
+      "service": "secrets-vault-proxy",
+      "package": "internal-data-client"
+    },
+    {
+      "service": "secrets-vault-proxy",
+      "package": "nodemailer"
+    },
+    {
+      "service": "secrets-vault-proxy",
+      "package": "requests"
+    },
+    {
+      "service": "fraud-detection-service",
+      "package": "bull"
+    },
+    {
+      "service": "fraud-detection-service",
+      "package": "prom-client"
+    },
+    {
+      "service": "fraud-detection-service",
+      "package": "pillow"
+    },
+    {
+      "service": "fraud-detection-service",
+      "package": "internal-notifications-sdk"
+    },
+    {
+      "service": "fraud-detection-service",
+      "package": "kafka-python"
+    },
+    {
+      "service": "fraud-detection-service",
+      "package": "lodash"
+    },
+    {
+      "service": "rate-limiter",
+      "package": "internal-payments-sdk"
+    },
+    {
+      "service": "rate-limiter",
+      "package": "logback-classic"
+    },
+    {
+      "service": "rate-limiter",
+      "package": "elasticsearch-py"
+    },
+    {
+      "service": "rate-limiter",
+      "package": "passport"
+    },
+    {
+      "service": "rate-limiter",
+      "package": "junit"
+    },
+    {
+      "service": "rate-limiter",
+      "package": "kafka-python"
+    },
+    {
+      "service": "rate-limiter",
+      "package": "bull"
+    },
+    {
+      "service": "rate-limiter",
+      "package": "axios"
+    },
+    {
+      "service": "image-resizer",
+      "package": "ioredis"
+    },
+    {
+      "service": "image-resizer",
+      "package": "stripe"
+    },
+    {
+      "service": "image-resizer",
+      "package": "internal-data-client"
+    },
+    {
+      "service": "image-resizer",
+      "package": "internal-http-client"
+    },
+    {
+      "service": "image-resizer",
+      "package": "requests"
+    },
+    {
+      "service": "webhook-dispatcher",
+      "package": "bull"
+    },
+    {
+      "service": "webhook-dispatcher",
+      "package": "hibernate-core"
+    },
+    {
+      "service": "webhook-dispatcher",
+      "package": "winston"
+    },
+    {
+      "service": "webhook-dispatcher",
+      "package": "internal-auth-sdk"
+    },
+    {
+      "service": "webhook-dispatcher",
+      "package": "djangorestframework"
+    },
+    {
+      "service": "webhook-dispatcher",
+      "package": "requests"
+    },
+    {
+      "service": "order-fulfillment-service",
+      "package": "elasticsearch-py"
+    },
+    {
+      "service": "order-fulfillment-service",
+      "package": "alembic"
+    },
+    {
+      "service": "order-fulfillment-service",
+      "package": "ioredis"
+    },
+    {
+      "service": "order-fulfillment-service",
+      "package": "internal-data-client"
+    },
+    {
+      "service": "order-fulfillment-service",
+      "package": "internal-search-client"
+    },
+    {
+      "service": "order-fulfillment-service",
+      "package": "axios"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "vuln_0",
+      "cve": "CVE-2024-9901",
+      "severity": "CRITICAL",
+      "summary": "Remote code execution via crafted log message context lookup.",
+      "published": "2024-01-01",
+      "package": "log4j-core"
+    },
+    {
+      "id": "vuln_1",
+      "cve": "CVE-2024-3742",
+      "severity": "CRITICAL",
+      "summary": "Deserialization of untrusted data allows arbitrary code execution.",
+      "published": "2024-02-04",
+      "package": "jackson-databind"
+    },
+    {
+      "id": "vuln_2",
+      "cve": "CVE-2023-8815",
+      "severity": "HIGH",
+      "summary": "Prototype pollution allows privilege escalation in downstream apps.",
+      "published": "2024-03-07",
+      "package": "jsonwebtoken"
+    },
+    {
+      "id": "vuln_3",
+      "cve": "CVE-2024-1122",
+      "severity": "HIGH",
+      "summary": "Improper JWT signature verification allows auth bypass.",
+      "published": "2024-04-10",
+      "package": "pyyaml"
+    },
+    {
+      "id": "vuln_4",
+      "cve": "CVE-2023-5590",
+      "severity": "MEDIUM",
+      "summary": "ReDoS in header-parsing regex causes request-thread exhaustion.",
+      "published": "2024-05-13",
+      "package": "internal-http-client"
+    },
+    {
+      "id": "vuln_5",
+      "cve": "CVE-2024-6601",
+      "severity": "MEDIUM",
+      "summary": "Path traversal in file-upload handling.",
+      "published": "2024-06-16",
+      "package": "pillow"
+    },
+    {
+      "id": "vuln_6",
+      "cve": "CVE-2024-0087",
+      "severity": "LOW",
+      "summary": "Verbose error output can leak internal stack traces.",
+      "published": "2024-07-19",
+      "package": "spring-web"
+    },
+    {
+      "id": "vuln_7",
+      "cve": "CVE-2024-9901",
+      "severity": "CRITICAL",
+      "summary": "Remote code execution via crafted log message context lookup.",
+      "published": "2024-08-22",
+      "package": "logback-classic"
+    }
+  ]
+}
