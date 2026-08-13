@@ -1,9 +1,10 @@
+const STAMP_CLASS: Record<string, string> = {
+  CRITICAL: "stamp stamp-critical",
+  HIGH: "stamp stamp-high",
+  MEDIUM: "stamp stamp-medium",
+  LOW: "stamp stamp-low",
+};
+
 export default function SeverityBadge({ severity }: { severity: string }) {
-  return (
-    <span
-      className={`inline-flex items-center rounded border px-2 py-0.5 text-[11px] font-mono font-medium tracking-wide severity-${severity}`}
-    >
-      {severity}
-    </span>
-  );
+  return <span className={STAMP_CLASS[severity] ?? "stamp stamp-low"}>{severity}</span>;
 }

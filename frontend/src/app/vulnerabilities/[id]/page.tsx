@@ -54,7 +54,7 @@ export default function VulnerabilityDetailPage() {
       </p>
 
       <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-[1.1fr_1fr]">
-        <div className="rounded-lg border border-line bg-panel p-4">
+        <div className="border border-line bg-panel p-4">
           <BlastRadiusDiagram
             epicenter={data.vulnerablePackage}
             severity={data.severity}
@@ -70,14 +70,14 @@ export default function VulnerabilityDetailPage() {
 
         <div className="flex flex-col gap-6">
           {selected && path && (
-            <div className="rounded border border-steady/40 bg-panel px-4 py-3">
+            <div className="border border-steady/40 bg-panel px-4 py-3">
               <p className="font-mono text-[11px] uppercase tracking-wide text-steady">
                 Shortest dependency path
               </p>
               <div className="mt-2 flex flex-wrap items-center gap-1 font-mono text-xs text-paper">
                 {path.map((node, i) => (
                   <span key={i} className="flex items-center gap-1">
-                    <span className="rounded bg-panel2 px-1.5 py-0.5">{node}</span>
+                    <span className="bg-panel2 px-1.5 py-0.5">{node}</span>
                     {i < path.length - 1 && <span className="text-muted">→</span>}
                   </span>
                 ))}

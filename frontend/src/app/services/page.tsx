@@ -41,12 +41,12 @@ export default function ServicesPage() {
               <Link
                 key={s.id}
                 href={`/services/${s.id}`}
-                className="rounded border border-line bg-panel px-4 py-3.5 transition-colors hover:border-steady/60"
+                className="border border-line bg-panel px-4 py-3.5 transition-colors hover:border-steady/60"
               >
                 <div className="flex items-start justify-between">
                   <p className="font-mono text-sm text-paper">{s.name}</p>
                   <span
-                    className={`rounded border px-1.5 py-0.5 font-mono text-[10px] uppercase ${TIER_STYLE[s.tier] ?? "border-line text-muted"}`}
+                    className={`border px-1.5 py-0.5 font-mono text-[10px] uppercase ${TIER_STYLE[s.tier] ?? "border-line text-muted"}`}
                   >
                     {s.tier}
                   </span>

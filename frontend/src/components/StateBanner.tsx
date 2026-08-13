@@ -17,7 +17,7 @@ export function ErrorBanner({ message }: { message: string }) {
       <p className="mt-1 text-sm text-muted">{message}</p>
       <p className="mt-3 text-xs text-muted">
         Check that the Flask API is running and{" "}
-        <code className="rounded bg-panel2 px-1 py-0.5 text-[11px]">NEXT_PUBLIC_API_URL</code>{" "}
+        <code className="bg-panel2 px-1 py-0.5 text-[11px]">NEXT_PUBLIC_API_URL</code>{" "}
         points at it, and that your CognoDB instance is reachable.
       </p>
     </div>
@@ -26,7 +26,7 @@ export function ErrorBanner({ message }: { message: string }) {
 
 export function EmptyBanner({ title, hint }: { title: string; hint?: string }) {
   return (
-    <div className="rounded border border-dashed border-line px-4 py-8 text-center">
+    <div className="border border-dashed border-line px-4 py-8 text-center">
       <p className="text-sm text-paper">{title}</p>
       {hint && <p className="mt-1 text-xs text-muted">{hint}</p>}
     </div>

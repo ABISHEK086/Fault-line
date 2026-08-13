@@ -35,7 +35,7 @@ export default function ServiceDetailPage() {
 
       <div className="mt-3 flex flex-wrap items-center gap-3">
         <h1 className="font-mono text-2xl font-semibold text-paper">{data.serviceName}</h1>
-        <span className="rounded border border-line px-2 py-0.5 font-mono text-[10px] uppercase text-muted">
+        <span className="border border-line px-2 py-0.5 font-mono text-[10px] uppercase text-muted">
           {data.serviceTier}
         </span>
       </div>
@@ -53,11 +53,11 @@ export default function ServiceDetailPage() {
 
       <div className="mt-8 flex flex-col gap-4">
         {data.dependencyTree.map((entry, i) => (
-          <div key={i} className="rounded border border-line bg-panel px-4 py-3.5">
+          <div key={i} className="border border-line bg-panel px-4 py-3.5">
             <div className="flex items-center gap-2">
               <span className="h-1.5 w-1.5 rounded-full bg-steady" />
               <p className="font-mono text-sm text-paper">{entry.direct}</p>
-              <span className="rounded border border-line px-1.5 py-0.5 font-mono text-[10px] text-muted">
+              <span className="border border-line px-1.5 py-0.5 font-mono text-[10px] text-muted">
                 {entry.ecosystem}
               </span>
               <span className="text-[11px] text-muted">direct dependency</span>

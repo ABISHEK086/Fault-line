@@ -43,7 +43,7 @@ export default function DashboardPage() {
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-steady">
             Software supply-chain impact graph
           </p>
-          <h1 className="mt-3 font-mono text-4xl font-semibold leading-tight text-paper sm:text-5xl">
+          <h1 className="mt-3 font-display text-3xl uppercase leading-[1.15] text-paper sm:text-4xl">
             When a dependency
             <br />
             turns out to be a bomb,
@@ -51,28 +51,28 @@ export default function DashboardPage() {
             <span className="text-signal">this is who&apos;s on fire.</span>
           </h1>
           <p className="mt-5 max-w-md text-sm leading-relaxed text-muted">
-            Faultline models your services, their package dependencies — direct and
-            transitive — and who owns them, as a graph. Point at a CVE and see the
+            Faultline models your services, their package dependencies - direct and
+            transitive - and who owns them, as a graph. Point at a CVE and see the
             full blast radius in one traversal: no manually walking package.json
             files service by service.
           </p>
           <div className="mt-7 flex gap-3">
             <Link
               href="/vulnerabilities"
-              className="rounded bg-signal px-4 py-2 font-mono text-sm font-medium text-ink transition-opacity hover:opacity-90"
+              className="bg-signal px-4 py-2 font-mono text-sm font-medium text-ink transition-opacity hover:opacity-90"
             >
               View open vulnerabilities
             </Link>
             <Link
               href="/services"
-              className="rounded border border-line px-4 py-2 font-mono text-sm text-paper transition-colors hover:border-steady"
+              className="border border-line px-4 py-2 font-mono text-sm text-paper transition-colors hover:border-steady"
             >
               Browse services
             </Link>
           </div>
         </div>
 
-        <div className="rounded-lg border border-line bg-panel p-4">
+        <div className="border border-line bg-panel p-4">
           {!heroRadius ? (
             <div className="flex aspect-square items-center justify-center">
               <LoadingBanner label="Computing blast radius" />
@@ -122,7 +122,6 @@ export default function DashboardPage() {
         </section>
       )}
 
-      {/* Critical packages + team exposure */}
       <section className="grid grid-cols-1 gap-8 lg:grid-cols-2">
         <div>
           <SectionHeading
@@ -206,7 +205,7 @@ function Stat({
   accent?: "signal";
 }) {
   return (
-    <div className="rounded border border-line bg-panel px-4 py-4">
+    <div className="border border-line bg-panel px-4 py-4">
       <p className={`font-mono text-2xl font-semibold ${accent === "signal" ? "text-signal" : "text-paper"}`}>
         {value}
         {unit && <span className="ml-1 text-xs font-normal text-muted">{unit}</span>}

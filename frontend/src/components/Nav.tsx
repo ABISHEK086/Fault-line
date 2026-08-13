@@ -15,27 +15,26 @@ export default function Nav() {
   const { data: session } = useSession();
 
   return (
-    <header className="sticky top-0 z-20 border-b border-line bg-ink/90 backdrop-blur">
+    <header className="sticky top-0 z-20 bg-paper">
+      <div className="hazard-tape" />
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="flex h-6 w-6 items-center justify-center rounded-sm border border-signal text-signal">
-            <span className="h-1.5 w-1.5 rounded-full bg-signal" />
+        <Link href="/" className="flex items-center gap-2.5">
+          <span className="flex h-6 w-6 items-center justify-center border-[1.5px] border-ink">
+            <span className="h-2 w-2 bg-hazard" />
           </span>
-          <span className="font-mono text-sm font-semibold tracking-wide text-paper">
-            FAULTLINE
-          </span>
+          <span className="font-display text-sm tracking-wide text-ink">FAULTLINE</span>
         </Link>
 
-        <div className="flex items-center gap-4">
-          <nav className="flex items-center gap-1 font-mono text-sm">
+        <div className="flex items-center gap-5">
+          <nav className="flex items-center gap-1 font-mono text-xs uppercase tracking-wide">
             {LINKS.map((link) => {
               const active = pathname === link.href;
               return (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`rounded px-3 py-1.5 transition-colors ${
-                    active ? "bg-panel2 text-paper" : "text-muted hover:text-paper"
+                  className={`px-3 py-1.5 transition-colors ${
+                    active ? "bg-ink text-paper" : "text-ink/60 hover:text-ink"
                   }`}
                 >
                   {link.label}
@@ -45,11 +44,13 @@ export default function Nav() {
           </nav>
 
           {session?.user && (
-            <div className="flex items-center gap-3 border-l border-line pl-4">
-              <span className="hidden text-xs text-muted sm:inline">{session.user.email}</span>
+            <div className="flex items-center gap-3 border-l border-ink/25 pl-4">
+              <span className="hidden font-mono text-[11px] text-ink/60 sm:inline">
+                {session.user.email}
+              </span>
               <button
                 onClick={() => signOut({ callbackUrl: "/login" })}
-                className="rounded border border-line px-2.5 py-1 text-xs text-muted transition-colors hover:border-steady hover:text-paper"
+                className="border border-ink/40 px-2.5 py-1 font-mono text-[11px] uppercase text-ink/70 transition-colors hover:border-ink hover:text-ink"
               >
                 Sign out
               </button>

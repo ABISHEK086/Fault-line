@@ -4,14 +4,21 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { api, ApiError, Vulnerability } from "@/lib/api";
 import SeverityBadge from "@/components/SeverityBadge";
-import { LoadingBanner, ErrorBanner, EmptyBanner } from "@/components/StateBanner";
+import {
+  LoadingBanner,
+  ErrorBanner,
+  EmptyBanner,
+} from "@/components/StateBanner";
 
 export default function VulnerabilitiesPage() {
   const [vulns, setVulns] = useState<Vulnerability[] | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    api.vulnerabilities().then(setVulns).catch((e: ApiError) => setError(e.message));
+    api
+      .vulnerabilities()
+      .then(setVulns)
+      .catch((e: ApiError) => setError(e.message));
   }, []);
 
   return (
@@ -23,13 +30,15 @@ export default function VulnerabilitiesPage() {
         Every disclosed CVE reachable in your dependency graph
       </h1>
       <p className="mt-2 max-w-2xl text-sm text-muted">
-        Sorted by severity, then by how many services are transitively exposed —
+        Sorted by severity, then by how many services are transitively exposed -
         that count already required a full dependency-chain traversal per row.
       </p>
 
       <div className="mt-8">
         {error && <ErrorBanner message={error} />}
-        {!error && !vulns && <LoadingBanner label="Traversing dependency graph" />}
+        {!error && !vulns && (
+          <LoadingBanner label="Traversing dependency graph" />
+        )}
         {!error && vulns && vulns.length === 0 && (
           <EmptyBanner
             title="No vulnerabilities loaded yet."
@@ -37,7 +46,7 @@ export default function VulnerabilitiesPage() {
           />
         )}
         {!error && vulns && vulns.length > 0 && (
-          <div className="overflow-hidden rounded border border-line">
+          <div className="overflow-hidden border border-line">
             <table className="w-full border-collapse text-sm">
               <thead>
                 <tr className="border-b border-line bg-panel text-left font-mono text-[11px] uppercase tracking-wide text-muted">
@@ -45,7 +54,9 @@ export default function VulnerabilitiesPage() {
                   <th className="px-4 py-3 font-medium">CVE</th>
                   <th className="px-4 py-3 font-medium">Package</th>
                   <th className="px-4 py-3 font-medium">Summary</th>
-                  <th className="px-4 py-3 text-right font-medium">Blast radius</th>
+                  <th className="px-4 py-3 text-right font-medium">
+                    Blast radius
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -67,9 +78,13 @@ export default function VulnerabilitiesPage() {
                     </td>
                     <td className="px-4 py-3 font-mono text-muted">
                       {v.packageName}
-                      <span className="ml-1.5 text-[10px] text-muted/70">{v.ecosystem}</span>
+                      <span className="ml-1.5 text-[10px] text-muted/70">
+                        {v.ecosystem}
+                      </span>
                     </td>
-                    <td className="max-w-sm px-4 py-3 text-muted">{v.summary}</td>
+                    <td className="max-w-sm px-4 py-3 text-muted">
+                      {v.summary}
+                    </td>
                     <td className="px-4 py-3 text-right font-mono text-steady">
                       {v.exposedServices} svc
                     </td>
