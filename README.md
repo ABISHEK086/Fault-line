@@ -63,7 +63,7 @@ Answering "what's affected" requires walking a dependency chain of unknown depth
 ![Sign in](screenshots/screen6.jpg)
 *Email/password and Google sign-in*
 
-## Setup
+## Setup 
 
 1. Create a free CognoDB instance at [console.cognodb.com](https://console.cognodb.com/signup)
 2. Backend: `cd backend`, `pip install -r requirements.txt`, copy `.env.example` to `.env` and add your CognoDB credentials, then `python seed/seed.py` and `python app.py`
