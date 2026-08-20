@@ -31,7 +31,7 @@ export default function VulnerabilitiesPage() {
         Every disclosed CVE reachable in your dependency graph
       </h1>
       <p className="mt-2 max-w-2xl text-sm text-muted">
-        Sorted by severity, then by how many services are transitively exposed —
+        Sorted by severity, then by how many services are transitively exposed -
         that count already required a full dependency-chain traversal per row.
       </p>
 
