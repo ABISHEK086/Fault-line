@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import { api, ApiError, ServiceDependencies } from "@/lib/api";
-import { LoadingBanner, ErrorBanner } from "@/components/StateBanner";
+import { ErrorBanner } from "@/components/StateBanner";
 import SeverityBadge from "@/components/SeverityBadge";
 
 export default function ServiceDetailPage() {
@@ -20,40 +20,74 @@ export default function ServiceDetailPage() {
   }, [params.id]);
 
   if (error) return <ErrorBanner message={error} />;
-  if (!data) return <LoadingBanner label="Walking dependency tree" />;
+
+  if (!data) {
+    return (
+      <div>
+        <div className="skeleton h-3 w-24" />
+        <div className="skeleton mt-3 h-8 w-64" />
+        <div className="mt-8 flex flex-col gap-4">
+          {Array.from({ length: 4 }).map((_, i) => (
+            <div key={i} className="skeleton h-16 w-full border border-line" />
+          ))}
+        </div>
+      </div>
+    );
+  }
 
   const vulnCount = data.dependencyTree.reduce(
     (sum, d) => sum + d.transitive.filter((t) => t.vulnerable).length,
-    0
+    0,
   );
 
   return (
     <div>
-      <Link href="/services" className="font-mono text-xs text-muted hover:text-steady">
+      <Link
+        href="/services"
+        className="font-mono text-xs text-muted hover:text-steady"
+      >
         ← all services
       </Link>
 
-      <div className="mt-3 flex flex-wrap items-center gap-3">
-        <h1 className="font-mono text-2xl font-semibold text-paper">{data.serviceName}</h1>
+      <div className="rise mt-3 flex flex-wrap items-center gap-3">
+        <h1 className="font-display text-2xl uppercase text-paper">
+          {data.serviceName}
+        </h1>
         <span className="border border-line px-2 py-0.5 font-mono text-[10px] uppercase text-muted">
           {data.serviceTier}
         </span>
       </div>
-      <p className="mt-1 text-sm text-muted">Owned by {data.teamName}</p>
+      <p
+        className="rise mt-1 text-sm text-muted"
+        style={{ animationDelay: "40ms" }}
+      >
+        Owned by {data.teamName}
+      </p>
 
       {vulnCount > 0 ? (
-        <p className="mt-3 inline-block rounded border border-signaldim bg-panel px-3 py-1.5 font-mono text-xs text-signal">
-          {vulnCount} vulnerable package{vulnCount > 1 ? "s" : ""} reachable in this tree
+        <p
+          className="rise mt-3 inline-block border border-signaldim bg-panel px-3 py-1.5 font-mono text-xs text-signal"
+          style={{ animationDelay: "60ms" }}
+        >
+          {vulnCount} vulnerable package{vulnCount > 1 ? "s" : ""} reachable in
+          this tree
         </p>
       ) : (
-        <p className="mt-3 inline-block rounded border border-steady/30 bg-panel px-3 py-1.5 font-mono text-xs text-steady">
+        <p
+          className="rise mt-3 inline-block border border-steady/30 bg-panel px-3 py-1.5 font-mono text-xs text-steady"
+          style={{ animationDelay: "60ms" }}
+        >
           No known vulnerabilities in this dependency tree
         </p>
       )}
 
       <div className="mt-8 flex flex-col gap-4">
         {data.dependencyTree.map((entry, i) => (
-          <div key={i} className="border border-line bg-panel px-4 py-3.5">
+          <div
+            key={i}
+            className="rise border border-line bg-panel px-4 py-3.5"
+            style={{ animationDelay: `${100 + i * 40}ms` }}
+          >
             <div className="flex items-center gap-2">
               <span className="h-1.5 w-1.5 rounded-full bg-steady" />
               <p className="font-mono text-sm text-paper">{entry.direct}</p>

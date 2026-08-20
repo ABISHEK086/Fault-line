@@ -289,3 +289,50 @@ input:focus-visible,
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+/* ---- Motion & data-density polish ---- */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.rise {
+  animation: rise 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}
+.skeleton {
+  background: linear-gradient(90deg, var(--paper-alt) 25%, #e9e5d7 37%, var(--paper-alt) 63%);
+  background-size: 800px 100%;
+  animation: shimmer 1.5s linear infinite;
+}
+
+.rivet {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--ink);
+  opacity: 0.18;
+}
+
+/* row-bar: a data bar drawn behind list text, width set via inline style */
+.row-bar {
+  position: absolute;
+  inset: 0;
+  transform-origin: left;
+  background: var(--paper-alt);
+  z-index: 0;
+}
