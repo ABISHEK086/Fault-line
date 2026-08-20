@@ -69,7 +69,6 @@ export default function BlastRadiusDiagram({
         </pattern>
       </defs>
 
-      {/* concentric rings — plain black hairlines, technical-drawing style */}
       {Object.values(TIER_RADIUS).map((f, i) => (
         <circle
           key={i}
@@ -136,7 +135,6 @@ export default function BlastRadiusDiagram({
         );
       })}
 
-      {/* epicenter — the hazard-stripe ring, one of three deliberate uses of the motif */}
       <g transform={`translate(${cx}, ${cy})`}>
         <circle r={26} fill="none" stroke={`url(#${stripeId})`} strokeWidth={7} />
         <circle r={20} fill="#ffffff" stroke="#15140f" strokeWidth={2} />

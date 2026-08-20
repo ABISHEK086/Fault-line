@@ -47,7 +47,6 @@ export default function DashboardPage() {
 
   return (
     <div className="flex flex-col gap-16">
-      {/* Hero — framed as a field report, not a stat card */}
       <section className="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_1.05fr] lg:items-start">
         <div className="rise">
           <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-steady">
@@ -61,8 +60,8 @@ export default function DashboardPage() {
             <span className="text-signal">this is who&apos;s on fire.</span>
           </h1>
           <p className="mt-5 max-w-md text-[15px] leading-relaxed text-muted">
-            Faultline models your services, their package dependencies — direct and
-            transitive — and who owns them, as a graph. Point at a CVE and see the
+            Faultline models your services, their package dependencies - direct and
+            transitive - and who owns them, as a graph. Point at a CVE and see the
             full blast radius in one traversal: no manually walking package.json
             files service by service.
           </p>
@@ -122,8 +121,6 @@ export default function DashboardPage() {
         </div>
       </section>
 
-      {/* Data strip — one continuous bordered strip with internal dividers,
-          not four separate boxed cards. Reads like a spec sheet. */}
       <section className="rise grid grid-cols-2 divide-x-[1.5px] divide-paper border-[1.5px] border-paper sm:grid-cols-4">
         <Stat label="Open CVEs" value={vulns?.length} />
         <Stat
@@ -139,9 +136,7 @@ export default function DashboardPage() {
         <Stat label="Teams tracked" value={teams?.length} />
       </section>
 
-      {/* Critical packages + team exposure — each row carries a magnitude
-          bar behind the text, so relative scale reads at a glance instead
-          of requiring you to compare numbers column by column. */}
+
       <section className="grid grid-cols-1 gap-8 lg:grid-cols-2">
         <div>
           <SectionHeading

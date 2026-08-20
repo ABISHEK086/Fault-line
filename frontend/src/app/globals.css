@@ -290,7 +290,7 @@ input:focus-visible,
   text-underline-offset: 2px;
 }
 
-/* ---- Motion & data-density polish ---- */
+
 @keyframes rise {
   from {
     opacity: 0;
@@ -328,7 +328,6 @@ input:focus-visible,
   opacity: 0.18;
 }
 
-/* row-bar: a data bar drawn behind list text, width set via inline style */
 .row-bar {
   position: absolute;
   inset: 0;
