@@ -114,7 +114,7 @@ export default function VulnerabilityDetailPage() {
               services={data.services}
               selectedServiceId={selected}
               onSelectService={setSelected}
-              size={520}
+              size={620}
             />
             <p className="mt-2 text-center text-xs text-muted">
               Click a service to trace its dependency path back to the
