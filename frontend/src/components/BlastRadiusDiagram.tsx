@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import type { BlastRadiusService } from "@/lib/api";
 
-const TIER_RADIUS: Record<string, number> = {
+const TIER_RADIUS: Record<string, number> = { 
   critical: 0.56,
   standard: 0.78,
   internal: 1.0,
